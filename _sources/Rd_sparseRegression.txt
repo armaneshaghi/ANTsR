@@ -1,0 +1,29 @@
+=========================
+sparseRegression 
+=========================
+
+purpose:  
+
+ Sparse regression on input images.
+ 
+description:  
+
+ Compute a sparse, spatially coherent regression from a set of input images (with mask) to an outcome variable.
+ 
+
+usage:  
+
+ sparseRegression(inmatrix, demog, outcome, mask=NA, sparseness=0.05, nvecs=50, 
+ 
+     its=5, cthresh=250, statdir=NA, z=0, smooth=0)
+ 
+examples: 
+
+.. sourcecode:: r
+    
+
+    require(ANTsR)
+    
+
+
+

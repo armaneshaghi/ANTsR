@@ -1,0 +1,27 @@
+=========================
+getfMRInuisanceVariables 
+=========================
+
+purpose:  
+
+ Extract generic fMRI nuisance variables for ASL or BOLD
+ 
+description:  
+
+ Will motion correct, run compcorr and estimate global signal. Outputs a list with the time series data matrix (time by voxels), motion and other nuisance variables, global signal (for BOLD or ASL), the mask and the average time series image.  Meant to be used before filterfMRIforNetworkAnalysis or any other results-oriented processing.  
+ 
+
+usage:  
+
+ output<-getfMRInuisanceVariables( boldImageOrFileName, maskThresh=100 , moreaccurate=T, mask = myfMRImask )
+ 
+examples: 
+
+.. sourcecode:: r
+    
+
+    # set moreaccurate=T for final results
+    
+
+
+

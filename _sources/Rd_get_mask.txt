@@ -1,0 +1,30 @@
+=========================
+get-mask 
+=========================
+
+purpose:  
+
+ Get Mask
+ 
+description:  
+
+ Get a mask-image from the given image after thresholding.
+ 
+
+usage:  
+
+ get_mask( img , thresh_lo , thresh_hi )
+ 
+
+.. sourcecode:: r
+    
+
+    examples:
+    
+    # input_img.nii is a 3D image
+    
+    mask_img <- get_mask("input_img.nii", 500, 1e+09)
+    
+
+
+

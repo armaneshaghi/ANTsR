@@ -1,0 +1,30 @@
+=========================
+plotBasicNetwork 
+=========================
+
+purpose:  
+
+ Simple plotBasicNetwork function.
+ 
+description:  
+
+   takes an object output from renderSurfaceFunction and a list of centroids and plots the centroid network over the rendering object
+ 
+
+usage:  
+
+ plotBasicNetwork( centroids = centroids, brain )
+ 
+examples: 
+
+.. sourcecode:: r
+    
+
+    brain <- renderSurfaceFunction(surfimg = list(mymni[[1]]), alphasurf = 0.1, 
+        smoothsval = 1.5)
+    
+    plotBasicNetwork(centroids = centroids, brain)
+    
+
+
+

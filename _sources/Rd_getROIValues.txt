@@ -1,0 +1,27 @@
+=========================
+getROIValue 
+=========================
+
+purpose:  
+
+ Compute mean value in each ROI label.
+ 
+description:  
+
+ Computes the mean value in each label of an ROI after masking with MaskImage
+ 
+
+usage:  
+
+ wmat<-getROIValue( valueImage, ROIImage, maskImage  )
+ 
+examples: 
+
+.. sourcecode:: r
+    
+
+    vals <- getROIValue(image, aal, mask)
+    
+
+
+
